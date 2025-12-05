@@ -1,15 +1,8 @@
-runpod
-
-# HF & Diffusers 관련
-diffusers
-transformers
-accelerate
+diffusers==0.27.2
+transformers==4.37.0
+accelerate==0.25.0
 safetensors
-huggingface_hub
-hf-transfer
-
-# Z-Image 전용 파이프라인
-zimage-native
-
-# 이미지 저장/인코딩용
 Pillow
+compel
+numpy
+runpod
